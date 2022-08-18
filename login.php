@@ -9,8 +9,9 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-5 text-center" style="padding-top:100px;" >
-                            <img src="assets/img/logo_500.png" style="width:500px;" class="img-fluid">
-                            <h4 class="text-white">Automated Sending Machine.</h4>
+                          
+                            <h1  class="text-white title_font" ><i class="fa fa-paper-plane" aria-hidden="true"></i> sendiT+</h1>
+                            <p class="text-white title_font">Automated Sending Machine.</p>
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                        
                                     <div class="card-header"><h5 class="text-center font-weight-light my-4">LOGIN</h5></div>

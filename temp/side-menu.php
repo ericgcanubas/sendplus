@@ -10,7 +10,7 @@
                             <!-- <div class="sb-sidenav-menu-heading">Interface</div> -->
                             <a class="nav-link collapsed text-white" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon text-white"><i class="fa fa-columns"></i></div>
-                                Messager
+                                Message
                                 <div class="sb-sidenav-collapse-arrow"><i class="fa fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">

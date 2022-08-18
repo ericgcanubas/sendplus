@@ -1,6 +1,6 @@
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-custom">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.php"><img src="assets/img/logo_500.png"  class="img-fluid"></a>
+            <a class="navbar-brand ps-3 " href="index.php"><h2 class="title_font"><i class="fa fa-paper-plane" aria-hidden="true"></i> sendiT+</h2></a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0 text-white" id="sidebarToggle" href="#!"><i class="fa fa-bars"></i></button>
             <!-- Navbar Search-->
