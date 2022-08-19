@@ -6,8 +6,9 @@
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
                 <div class="input-group">
-                    <!-- <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button> -->
+                    <!-- <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />-->
+                    <!-- <button class="btn btn-primary btn-background" id="btnNavbarSearch" type="button"><i class="fa fa-bell"></i></button> -->
+                    <a class="nav-link text-white"  href="#" role="button" aria-expanded="false"><i class="fa fa-bell "></i> 0</a>
                 </div>
             </form>
             <!-- Navbar-->

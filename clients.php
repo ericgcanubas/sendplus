@@ -9,23 +9,29 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Clients</h1>
+                        <h1 class="mt-4 text-primary">Clients</h1>
                         <ol class="breadcrumb mb-4">
-                            <!-- <li class="breadcrumb-item active">Clients</li> -->
+                         <li class="breadcrumb-item active">Client List</li> 
                         </ol>
                    
                              <!-- Modify Start -->    
                         <!--  -->
                              <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fa fa-users"></i>
+                            <div class="card-header bg-custom_side">
+                               
                                 <!-- Add Button -->
-                                <a href="add_client.php" class="btn btn-success "><span class="fa fa-plus"></span>  New Client </a>
+                                <div class="row ">
+                                    <div class="col-xs-4 col-lg-4 text-first">  <i class="fa fa-users text-white fa-xl"></i></div>
+                                    <div class=" col-xs-8 col-lg-8 text-end">  
+                                        <a href="add_client.php" class="btn  btn-sm  btn-info    text-white "><span class="fa fa-plus"></span> </a>
+</div>
+                                </div>
+                                    
                             </div>
                             
                             <div class="card-body">
-                                <table id="datatablesSimple">
-                                    <thead>
+                                <table id="datatablesSimple" >
+                                    <thead class="bg-custom text-white">
                                         <tr>
                                                      <th>Name</th>
                                                     <th>Contact No</th>

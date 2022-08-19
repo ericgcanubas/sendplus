@@ -1,9 +1,11 @@
 
 .bg-custom{
     background-color:  rgb(53, 161, 228);
-    /* background-image:url('../assets/img/bg-blue.jpg');
-    background-repeat: no-repeat;
-  background-size: cover; */
+
+}
+.bg-custom_side{
+    background-color:  rgb(44, 135, 209);
+
 }
 .sb-nav-link-icon{
     color:white;
@@ -26,3 +28,37 @@
             font-weight:normal;
             font-style:normal; 
         }
+
+        .btn-circle.btn-sm {
+            width: 30px;
+            height: 30px;
+
+            border-radius: 15px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .one-half {
+            color:#fff;
+            font-size:115%;
+            font-weight:500;
+            height:100px;
+            text-align:center;
+            }
+
+            .trans:before,.ack:before,.reject:before,.mo:before,.mobile:before {
+                position: absolute;
+                font-family: 'FontAwesome';
+                font-size:80px;
+                top: 0;
+                left: 10px;
+                color:#fff;
+                opacity:.2;
+                }
+
+            .trans:before { content: "\f019"; }
+            .ack:before { content: "\f00c"; }
+            .reject:before { content: "\f00d"; }
+            .mo:before { content: "\f021"; }
+            .mobile:before{ content: "\f10b ";}    
+            
