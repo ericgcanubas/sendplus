@@ -17,7 +17,7 @@
                            
                            <div class="row">
                            <div class="col-lg-12">
-                                <div class="card mb-4 bg-custom">
+                                <div class="card mb-4 bg-custom" style="margin-right:25px;">
                                     <div class="card-header ">
                           
                                      <div class="text-end">
