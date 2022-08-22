@@ -26,7 +26,6 @@
                             </a>
                             <div class="collapse bg-secondary" id="collapseCredentials" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion " id="sidenavAccordionPages">
-                                <a class="nav-link text-white" href="#">Subscription</a>
                                 <a class="nav-link text-white" href="#">Create Payment</a>
                                 <a class="nav-link text-white" href="#">View Clients  </a>
                                 
