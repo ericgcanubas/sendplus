@@ -5,90 +5,158 @@
 
 
 </style>
-    <body class="bg-custom">
-        <div id="layoutAuthentication">
+    <body class="bg-custom bg-background">
+        <div class="container" style="margin-left:0px;z-index:999999;">
+            <div class="row" style="margin-left:0px;">
+                <div class="xs-hidden" style="float:left;margin-top:50px;margin-left:0px;">
+                    <a href="login.php" class="btn btn-md btn-warning text-white title-font" style="background-color:royalblue;float:left; margin-left:-20px;" > <i class="fa fa-arrow-left"></i>  BACK TO SIGN-IN </a>
+                </div>
+            </div>
+        </div>
+        <div id="layoutAuthentication"  style="float:clear; z-index:-990;">
             <div id="layoutAuthentication_content">
                 <main>
                     <div class="container">
+
+               
                         <div class="row justify-content-center">
-                            <div class="col-lg-5 text-center" style="padding-top:100px;" >
+                            <div class="col-lg-6 text-center" style="padding-top:100px;" >
                           
-                            <h1  class="text-white title_font" ><i class="fa fa-paper-plane" aria-hidden="true"></i> sendiT+</h1>
-                            <p class="text-white title_font">Automated Sending Machine.</p>
+                            <!-- <h1  class="text-white intro-title title_font" ><i class="fa fa-paper-plane" aria-hidden="true"></i> sendiT+</h1>
+                            <p class="text-white title_font">Automated Sending Machine.</p> -->
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                        
-                                    <div class="card-header"><h5 class="text-center font-weight-light my-4">Build your subscription!</h5></div>
+                                    <div class="card-header bg-custom_side text-white"><h5 class="text-center font-weight-light my-4">Build your subscription!</h5></div>
                                     <div class="card-body">
 
-                          <form>
+                        <form>
                                     <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Basic Info</button>
+  <li class="nav-item bg-secondary" role="presentation" >
+    <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Basic Info</button>
   </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Account Info</button>
+  <li class="nav-item bg-secondary" role="presentation">
+    <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Account Info</button>
   </li>
 
 </ul>
 <div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+   
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
-  <div class="row">
-                <div class="col-md-12 form-floating mb-3">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Company Name</label>
-                    <input class="form-control" type="text" >
-                  </div>
-                </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Description</label>
-                    <input class="form-control" type="text" >
-                  </div>
-                </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Contact Number</label>
-                    <input class="form-control" type="number" >
-                  </div>
-                </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group z">
-                    <label for="example-text-input" class="form-control-label">Contact Person</label>
-                    <input class="form-control" type="text">
-                  </div>
-                </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Email Address</label>
-                    <input class="form-control" type="email" >
-                  </div>
-                </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Website</label>
-                    <input class="form-control" type="text" >
-                  </div>
-                </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
-                    <label for="example-text-input" class="form-control-label">Address</label>
-                    <input class="form-control" type="text" >
-                  </div>
-                </div>
-                <div class="ol-md-12  text-end">
-                <div class="form-group py-4">
-            
-                <a class="btn btn-lg btn-secondary" href="clients.php">Cancel</a>
-                <a class="btn btn-lg bg-custom text-white" href="index.php">Create</a>
+                <div class="row text-start">
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">
+                    
+                            <input class="form-control" type="text" id ="inputFirstname" placeholder="First Name" >
+                            <label for="inputFirstname">First Name</label>            
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputCompany" type="text" placeholder="Company" >
+                        <label for="inputCompany" class="form-control-label">Company</label>
+                    </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                    <div class="form-floating">
+                     
+                        <input class="form-control" type="text" id="inputLastname" placeholder="Last Name" >
+                        <label for="inputLastname" class="form-control-label">Last Name</label>
+                    </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">
+                    
+                        <input class="form-control" type="text" id="inputStreetAddress" placeholder="Street Address" >
+                        <label for="inputStreetAddress" class="form-control-label">Street Address</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">               
+                            <input class="form-control" type="text" id ="inputContactNo" placeholder="Contact No.">
+                            <label for="inputContactNo" class="form-control-label">Contact No.</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">
+                           
+                            <input class="form-control" type="email" id="inputEmail" placeholder="Email Address" >
+                            <label for="inputEmail" class="form-control-label">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">                           
+                            <input class="form-control" type="text" id="inputCity" placeholder="City" >
+                            <label for="inputCity" class="form-control-label">City</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">
 
-            </div>
+                            <input class="form-control" type="text" id="inputCountry" placeholder="Country" >
+                            <label for="inputCountry" class="form-control-label">Country</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group mb-3"></div>
+                    <div class="col-md-6 form-group mb-3">
+                        <div class="form-floating">
+          
+                            <input class="form-control" type="text" id="inputZipCode" placeholder="Zip Code" >
+                            <label for="inputZipCode" class="form-control-label">Zip Code</label>
+                        </div>
+                    </div>
 
-  </div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                    <div class="col-md-12 form-group mb-3 text-end">
+                    <a class="btn btn-md bg-custom text-white" href="#">Next</a>
+                    
+                    </div>
+                    
+                </div>   
 
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                <div class="row text-start">
+                    <div class="col-md-12 form-group mb-3">
+                        <div class="form-floating">
+                            
+                            <select class="form-select" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">Basic</option>
+                            <option value="2">Professional</option>
+                            <option value="2">Enterprise</option>
+                            </select>
+                            <label for="example-text-input" class="form-control-label ">Package Type</label>  
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group mb-3">
+                        <div class="form-floating">                       
+                            <input class="form-control" type="text" id="inputUsername" placeholder="Username" >
+                            <label for="inputUsername" class="form-control-label">Username</label>
+                        </div>
+                    </div>
+                    <div class="col-md-12 form-group mb-3">
+                        <div class="form-floating">
+                            <input class="form-control" type="password" id="inputPassword" placeholder="Password" >
+                            <label for="inputPassword" class="form-control-label">Password</label>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="col-md-12 form-floating mb-3 ">
+                        <div class="row"> 
+                        <div class="col-md-6 text-start">  <a class="btn btn-md bg-secondary text-white text-start" href="#">Previous</a></div>
+         
+                      <div class="col-md-6 text-end">  <a class="btn btn-md bg-primary text-white text-end" href="login.php">Finish</a> </div>
+</div>
+                    </div>
+                    
+                </div>   
+    </div>
+    
 </div>     
 </form>
+
 
 
                                     </div>

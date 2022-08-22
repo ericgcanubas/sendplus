@@ -3,6 +3,20 @@
     background-color:  rgb(53, 161, 228);
 
 }
+.bg-background{
+    background-image: url('../assets/img/bk.png');
+    height: 500px; /* You must set a specified height */
+    background-position:top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.intro-title{
+    font-size:90px;
+}
+.txt_shadow{
+    text-shadow: 2px 2px #000;
+}
+
 .bg-custom_side{
     background-color:  rgb(44, 135, 209);
 

@@ -68,15 +68,15 @@
                   </div>
                 </div>
                 <div class="ol-md-12  text-end">
-                <div class="form-group py-4">
-            
-                <a class="btn btn-lg btn-secondary" href="clients.php">Cancel</a>
-                <a class="btn btn-lg bg-custom text-white" href="index.php">Create</a>
+                      <div class="form-group py-4">
+                  
+                      <a class="btn btn-lg btn-secondary" href="clients.php">Cancel</a>
+                      <a class="btn btn-lg bg-custom text-white" href="index.php">Create</a>
 
-            </div>
-              
+                      </div>
+                    
 
-</div>
+                </div>
               </div>
             </div>
                       

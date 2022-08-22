@@ -39,7 +39,7 @@
                             </a>
                             <div class="collapse bg-secondary" id="collapseBills" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                <a class="nav-link text-white" href="#">View Statements</a>
+                                 <a class="nav-link text-white" href="#">View Statements</a>
                          
                                 
                                 </nav>
