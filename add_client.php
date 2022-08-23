@@ -25,50 +25,50 @@
             <div class="card-body">
   
               <div class="row">
-                <div class="col-md-12 form-floating mb-3">
-                  <div class="form-group">
+                <div class="col-md-12 form-group mb-3">
+                  <div class="form-floating">
                     <label for="example-text-input" class="form-control-label">Company Name</label>
                     <input class="form-control" type="text" >
                   </div>
                 </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
+                <div class="col-md-6 form-group mb-3">
+                  <div class="form-floating">
                     <label for="example-text-input" class="form-control-label">Description</label>
                     <input class="form-control" type="text" >
                   </div>
                 </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
+                <div class="col-md-6 form-group mb-3">
+                  <div class="form-floating">
                     <label for="example-text-input" class="form-control-label">Contact Number</label>
                     <input class="form-control" type="number" >
                   </div>
                 </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group z">
+                <div class="col-md-6 form-group mb-3">
+                  <div class="form-floating ">
                     <label for="example-text-input" class="form-control-label">Contact Person</label>
                     <input class="form-control" type="text">
                   </div>
                 </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
+                <div class="col-md-6 form-group mb-3">
+                  <div class="form-floating">
                     <label for="example-text-input" class="form-control-label">Email Address</label>
                     <input class="form-control" type="email" >
                   </div>
                 </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
+                <div class="col-md-6 form-group mb-3">
+                  <div class="form-floating">
                     <label for="example-text-input" class="form-control-label">Website</label>
                     <input class="form-control" type="text" >
                   </div>
                 </div>
-                <div class="col-md-6 form-floating mb-3">
-                  <div class="form-group">
+                <div class="col-md-6 form-group mb-3">
+                  <div class="form-floating">
                     <label for="example-text-input" class="form-control-label">Address</label>
                     <input class="form-control" type="text" >
                   </div>
                 </div>
                 <div class="ol-md-12  text-end">
-                      <div class="form-group py-4">
+                      <div class="form-floating py-4">
                   
                       <a class="btn btn-lg btn-secondary" href="clients.php">Cancel</a>
                       <a class="btn btn-lg bg-custom text-white" href="index.php">Create</a>

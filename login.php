@@ -5,7 +5,7 @@
 
 
 .log-panel{
-    width:500px;
+   
 }
 .log-login{
 
@@ -18,17 +18,17 @@
                     <div class="container  just-center">
                         <div class="row"  style="min-height: 100vh">
                         <div class=" col-md-6 col-lg-6 text-center my-auto">
-                            <h4 class="text-white txt_shadow">WELCOME TO</h4>
+                            <h3 class="text-white txt_shadow">WELCOME TO</h3>
                             <h1  class="text-white title_font intro-title  txt_shadow"   ><i class="fa fa-paper-plane" aria-hidden="true"></i> sendiT+</h1>
-                            <!-- <h3 class="text-white title_font txt_shadow">Automated Sending Machine.</h3> -->
+                             <h4 class="text-white title_font txt_shadow">Automated Sending Machine.</h4> 
                             <br/>
-                        <h5 class="text-white title_font">Achieve better connection in sending message or email and assist you in a more satisfying expectation. </h5>
+                        <h5 class="d-none d-sm-block text-white title_font txt_shadow">Achieve better connection in sending message or email and assist you in a more satisfying expectation. </h5>
                         
-                            <a class="btn btn-primary btn-lg  rounded-pill w-100    txt_shadow" href="registration.php">Subscribe Now.</a>
+                            <a class="d-none d-sm-block btn btn-primary text-white btn-lg  rounded-pill w-100  txt_shadow shadow-lg" style="" href="registration.php">SUBSCRIBE NOW! </a>
                         
                         </div>
 
-                            <div class=" col-md-1 col-lg-1 text-center my-auto"  style="background-color:ffff;" >
+                      <div class="d-none d-sm-block col-md-1 col-lg-1 text-center my-auto"  style="background-color:ffff;" >
                         </div>  
                         <div class="col-md-5 col-lg-5 text-center my-auto" >
                   
