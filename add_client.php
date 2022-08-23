@@ -17,7 +17,7 @@
                      
                         <div class="row">
                             <!-- Modify Start -->
-    <div class="col-md-10" >
+      <div class="col-md-10" >
           <div class="card">
             <div class="card-header bg-custom_side text-white">
               <h4 class="text-uppercase text-sm">Client Information</h4>
@@ -27,44 +27,47 @@
               <div class="row">
                 <div class="col-md-12 form-group mb-3">
                   <div class="form-floating">
-                    <label for="example-text-input" class="form-control-label">Company Name</label>
-                    <input class="form-control" type="text" >
+                 
+                    <input class="form-control" id="inputCompanyName" type="text" placeholder="Company Name" >
+                    <label for="inputCompanyName" class="form-control-label">Company Name</label>
                   </div>
                 </div>
                 <div class="col-md-6 form-group mb-3">
                   <div class="form-floating">
-                    <label for="example-text-input" class="form-control-label">Description</label>
-                    <input class="form-control" type="text" >
+                  
+                    <input class="form-control" id ="inputDescription" type="text" placeholder="Description" >
+                    <label for="inputDescription" class="form-control-label">Description</label>
                   </div>
                 </div>
                 <div class="col-md-6 form-group mb-3">
                   <div class="form-floating">
-                    <label for="example-text-input" class="form-control-label">Contact Number</label>
-                    <input class="form-control" type="number" >
+                    <input class="form-control" id="inputContactNumber" type="text" placeholder="Contact Number" >                    
+                    <label for="inputContactNumber" class="form-control-label">Contact Number</label>
                   </div>
                 </div>
                 <div class="col-md-6 form-group mb-3">
                   <div class="form-floating ">
-                    <label for="example-text-input" class="form-control-label">Contact Person</label>
-                    <input class="form-control" type="text">
+                    <input class="form-control" id="inputContactPerson" type="text" placeholder="Contact Person" >
+                    <label for="inputContactPerson" class="form-control-label">Contact Person</label>
                   </div>
                 </div>
                 <div class="col-md-6 form-group mb-3">
                   <div class="form-floating">
-                    <label for="example-text-input" class="form-control-label">Email Address</label>
-                    <input class="form-control" type="email" >
+                    <input class="form-control" id="inputEmailAddress" type="email" placeholder="Email Address"  >
+                    <label for="inputEmailAddress" class="form-control-label">Email Address</label>
                   </div>
                 </div>
                 <div class="col-md-6 form-group mb-3">
                   <div class="form-floating">
-                    <label for="example-text-input" class="form-control-label">Website</label>
-                    <input class="form-control" type="text" >
+    
+                    <input class="form-control" id="inputWebsite" type="text" placeholder="Website" >
+                    <label for="inputWebsite" class="form-control-label">Website</label>
                   </div>
                 </div>
                 <div class="col-md-6 form-group mb-3">
-                  <div class="form-floating">
-                    <label for="example-text-input" class="form-control-label">Address</label>
-                    <input class="form-control" type="text" >
+                  <div class="form-floating">                
+                    <input class="form-control" id="inputAddress" type="text" placeholder="Address" >
+                    <label for="inputAddress" class="form-control-label">Address</label>
                   </div>
                 </div>
                 <div class="ol-md-12  text-end">
@@ -81,7 +84,7 @@
             </div>
                       
           </div>
-        </div>
+      </div>
 
                             
                             <!-- Modify End -->

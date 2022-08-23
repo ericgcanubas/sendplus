@@ -45,11 +45,11 @@
 
                 <div class="row text-start">
                     <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">
-                    
-                            <input class="form-control" type="text" id ="inputFirstname" placeholder="First Name" >
-                            <label for="inputFirstname">First Name</label>            
-                        </div>
+                    <div class="form-floating">
+                
+                        <input class="form-control" type="text" id ="inputFirstname" placeholder="First Name" >
+                        <label for="inputFirstname">First Name</label>            
+                    </div>
                     </div>
                     <div class="col-md-6 form-group mb-3">
                     <div class="form-floating">

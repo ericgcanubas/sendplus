@@ -40,14 +40,15 @@
                           
                                         <form>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                                                <label for="inputEmail">Email address</label>
-                                                
+                                                <input class="form-control" id="inputUsername" type="text" placeholder="Username" />
+                                                <label for="inputUsername">Username</label>                                               
                                             </div>
+
                                             <div class="form-floating mb-3">
                                                 <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
                                                 <label for="inputPassword">Password</label>
                                             </div>
+                                            
                                             <!-- <div class="form-check mb-3">
                                                 <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
@@ -58,9 +59,9 @@
                                             </div>
                                         </form>
                                     </div>
-                                    <!-- <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.html">Need an account? Sign up!</a></div>
-                                    </div> -->
+                                    <div class="card-footer text-center py-3">
+                                        <div class="small"><a class="h6" href="reset-password.php">Forgot your Password?</a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

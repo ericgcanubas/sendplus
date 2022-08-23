@@ -9,9 +9,9 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4 text-primary">Clients</h1>
+                        <h1 class="mt-4 text-primary">Subscription</h1>
                         <ol class="breadcrumb mb-4">
-                         <li class="breadcrumb-item active">Client List</li> 
+                         <li class="breadcrumb-item active">Subscription List</li> 
                         </ol>
                    
                              <!-- Modify Start -->    
@@ -23,8 +23,8 @@
                                 <div class="row ">
                                     <div class="col-xs-4 col-lg-4 text-first">  <i class="fa fa-users text-white fa-xl"></i></div>
                                     <div class=" col-xs-8 col-lg-8 text-end">  
-                                        <a href="add_client.php" class="btn  btn-sm  btn-info    text-white "><span class="fa fa-plus"></span> </a>
-</div>
+                                        <!-- <a href="add_client.php" class="btn  btn-sm  btn-info    text-white "><span class="fa fa-plus"></span> </a> -->
+                                    </div>
                                 </div>
                                     
                             </div>
@@ -56,7 +56,7 @@
                                                     <td>jftnovember@gmail.com</td>
                                                     <td>Nick Tayabas</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -65,7 +65,7 @@
                                                     <td>erolea_33@yahoo.com</td>
                                                     <td>Erolea</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -74,7 +74,7 @@
                                                     <td>phcci_taccity@yahoo.com</td>
                                                     <td>phcci_taccity@yahoo.com</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -83,7 +83,7 @@
                                                     <td>accounting@samulco.coop</td>
                                                     <td>Jayson Lagare</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -92,7 +92,7 @@
                                                     <td>compostelamarket@yahoo.com</td>
                                                     <td>Ebonito Alivio</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -101,7 +101,7 @@
                                                     <td>mavencocoop@yahoo.com.ph</td>
                                                     <td>Nino Hugo</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -110,7 +110,7 @@
                                                     <td>smpcsicocu1974@gmail.com</td>
                                                     <td>Alexander Asis</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -119,7 +119,7 @@
                                                     <td>gubat@gsac.coop</td>
                                                     <td>Aiken</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -128,7 +128,7 @@
                                                     <td>cchemco@yahoo.com</td>
                                                     <td>Paul Fenando Sombilon</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -137,7 +137,7 @@
                                                     <td>cordova@gmail.com</td>
                                                     <td>Neomelito Nuňez</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -146,7 +146,7 @@
                                                     <td>avelina_lopez06@yahoo.com</td>
                                                     <td>Avelina Lopez</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -155,7 +155,7 @@
                                                     <td>adtempco1985@yahoo.com</td>
                                                     <td>Irene B. Bringas</td>
                                                     <td>
-                                                        <a href='edit_client.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
                                                     </td>
                                                 </tr>
                                     </tbody>

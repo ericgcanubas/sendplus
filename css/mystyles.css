@@ -60,7 +60,7 @@
             text-align:center;
             }
 
-            .trans:before,.ack:before,.reject:before,.mo:before,.mobile:before {
+            .trans:before,.ack:before,.reject:before,.mo:before,.mobile:before,.paper:before,.refresh:before {
                 position: absolute;
                 font-family: 'FontAwesome';
                 font-size:80px;
@@ -74,5 +74,7 @@
             .ack:before { content: "\f00c"; }
             .reject:before { content: "\f00d"; }
             .mo:before { content: "\f021"; }
-            .mobile:before{ content: "\f10b ";}    
+            .mobile:before{ content: "\f10b";}   
+            .paper:before{ content: "\f1d8";}  
+            .refresh:before{ content: "\f200";}  
             
