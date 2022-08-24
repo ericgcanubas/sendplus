@@ -24,29 +24,53 @@
 
             <div class="row"> 
                 <h6>Filter</h6>
-   <div class="col-md-3 form-group mb-3">
-                                                <div class="form-floating">
+   <div class="col-md-5 col-lg-5 form-group mb-3">
+    <div class = "row">
+                    <div class="col-md-6">
+                                        <div class="form-floating">                                               
+                                            <input class="form-control " type="date" id="inputDateExpired" value="mm/dd/yyyy">
+                                                <label for="inputDateExpired" class="form-control-label">Date From</label>
+                                            </div>  
+                                         
+                    </div>
+                    <div class="col-md-6">
+                                              <div class="form-floating">
                                                
-                                                    <input class="form-control" type="date" id="inputDateExpired" value="mm/dd/yyyy">
-                                                    <label for="inputDateExpired" class="form-control-label">Date From</label>
-                                                    
-                                              
-<input class="form-control"  type="time" id="appt" name="appt">
-                                                </div>
+                                               <input class="form-control" type="date" id="inputDateExpired" value="mm/dd/yyyy">
+                                               <label for="inputDateExpired" class="form-control-label">Date To</label>
+                                               
+                                           </div>           
+                    </div>
+    </div>
+                                       
                                             </div>
 
-                                            <div class="col-md-3 form-group mb-3">
-                                                <div class="form-floating">
-                                               
-                                                    <input class="form-control" type="date" id="inputDateExpired" value="mm/dd/yyyy">
-                                                    <label for="inputDateExpired" class="form-control-label">Date To</label>
-                                                    <input class="form-control" type="time" id="appt" name="appt">
+         <div class="col-md-5 col-lg-5 form-group mb-3">
+                                                                        <div class="row">
+                                                                                <div class=" col-md-6">
+                                                                                <div class="form-floating">
+                                                    <input class="form-control"  type="time" id="appt" name="appt">
+                                                    <label for="inputDateExpired" class="form-control-label">Time From</label>
                                                 </div>
-                                            </div>          
-                                            <div class="col-md-3 form-group mb-3">
-                                                <div class="form-floating">
+                                                                             
+                                                                                </div>
+                                                                                 <div class="col-md-6">
+                                                                                 <div class="form-floating">
                                                
-                                                    <a href="#" class="btn btn-primary btn-lg" >Search</a>
+                                    
+                                                                                        <input class="form-control" type="time" id="appt" name="appt">
+                                                                                        
+                                                                                        <label for="inputDateExpired" class="form-control-label">Time To</label>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+
+                                             
+                                            </div>          
+                                            <div class="col-md-1 form-group mb-3">
+                                                <div class="form-floating text-end">
+                                               
+                                                    <a href="#" class="btn btn-primary btn-md" >Search</a>
                                                    
                                                 </div>
                                             </div>

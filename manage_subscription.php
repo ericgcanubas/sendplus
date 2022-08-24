@@ -9,7 +9,7 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Subscription</h1>
+                        <h1 class="mt-4 text-primary">Subscription</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active text-info h6">Manage Subscription</li>
                         </ol>

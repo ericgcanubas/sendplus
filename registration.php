@@ -31,18 +31,16 @@
 
                         <form>
                                     <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab" role="tablist">
-  <li class="nav-item bg-secondary" role="presentation" >
-    <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Basic Info</button>
-  </li>
-  <li class="nav-item bg-secondary" role="presentation">
-    <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Account Info</button>
-  </li>
+                                        <li class="nav-item bg-secondary" role="presentation" >
+                                            <button class="nav-link active text-white" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Basic Info</button>
+                                        </li>
+                                        <li class="nav-item bg-secondary" role="presentation">
+                                            <button class="nav-link text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Account Info</button>
+                                        </li>
 
-</ul>
+                                    </ul>
 <div class="tab-content" id="pills-tabContent">
-   
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
                 <div class="row text-start">
                     <div class="col-md-6 form-group mb-3">
                     <div class="form-floating">
@@ -112,14 +110,11 @@
                     </div>
                     
                 </div>   
-
     </div>
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-
                 <div class="row text-start">
                     <div class="col-md-12 form-group mb-3">
-                        <div class="form-floating">
-                            
+                        <div class="form-floating">                     
                             <select class="form-select" aria-label="Default select example">
                             <option selected></option>
                             <option value="1">Basic</option>
@@ -148,13 +143,13 @@
                         <div class="col-md-6 text-start">  <a class="btn btn-md bg-secondary text-white text-start" href="#">Previous</a></div>
          
                       <div class="col-md-6 text-end">  <a class="btn btn-md bg-primary text-white text-end" href="login.php">Finish</a> </div>
-</div>
+        </div>
                     </div>
                     
                 </div>   
     </div>
     
-</div>     
+    </div>     
 </form>
 
 

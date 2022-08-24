@@ -1,4 +1,4 @@
-<?php $title = "Clients - SEND iT+";?>
+<?php $title = "Subscriber - SEND iT+";?>
 <!DOCTYPE html>
 <html lang="en">
    <?php include_once("temp/head.php"); ?>
@@ -11,7 +11,7 @@
                     <div class="container-fluid px-4">
                         <h1 class="mt-4 text-primary">Subscription</h1>
                         <ol class="breadcrumb mb-4">
-                         <li class="breadcrumb-item active">Subscription List</li> 
+                         <li class="breadcrumb-item active">subscriber List</li> 
                         </ol>
                    
                              <!-- Modify Start -->    
@@ -33,19 +33,21 @@
                                 <table id="datatablesSimple" >
                                     <thead class="bg-custom text-white">
                                         <tr>
-                                                     <th>Name</th>
+                                                     <th>Company</th>
                                                     <th>Contact No</th>
                                                     <th>Email Address</th>
-                                                    <th>Contact Person</th>
+                                                    <th>Fullname</th>
+                                                    <th>Status</th>
                                                     <th style="width: 10%;">Action</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                                <th>Name</th>
+                                                <th>Company</th>
                                                     <th>Contact No</th>
                                                     <th>Email Address</th>
-                                                    <th>Contact Person</th>
+                                                    <th>Fullname</th>
+                                                    <th>Status</th>
                                                     <th style="width: 10%;">Action</th>
                                         </tr>
                                     </tfoot>
@@ -55,8 +57,9 @@
                                                     <td>084-817-0469</td>
                                                     <td>jftnovember@gmail.com</td>
                                                     <td>Nick Tayabas</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -64,8 +67,9 @@
                                                     <td>253-9999</td>
                                                     <td>erolea_33@yahoo.com</td>
                                                     <td>Erolea</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -73,8 +77,9 @@
                                                     <td>253-9999</td>
                                                     <td>phcci_taccity@yahoo.com</td>
                                                     <td>phcci_taccity@yahoo.com</td>
+                                                    <td> <span class="badge badge-sm bg-danger">Inacive</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -82,8 +87,9 @@
                                                     <td>09317554899</td>
                                                     <td>accounting@samulco.coop</td>
                                                     <td>Jayson Lagare</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -91,8 +97,9 @@
                                                     <td>045-3210</td>
                                                     <td>compostelamarket@yahoo.com</td>
                                                     <td>Ebonito Alivio</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -100,8 +107,9 @@
                                                     <td>023-1234</td>
                                                     <td>mavencocoop@yahoo.com.ph</td>
                                                     <td>Nino Hugo</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -109,8 +117,9 @@
                                                     <td>023-1234</td>
                                                     <td>smpcsicocu1974@gmail.com</td>
                                                     <td>Alexander Asis</td>
+                                                    <td> <span class="badge badge-sm bg-danger">Inactive</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -118,8 +127,9 @@
                                                     <td>045-3210</td>
                                                     <td>gubat@gsac.coop</td>
                                                     <td>Aiken</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -127,8 +137,9 @@
                                                     <td>09064401358</td>
                                                     <td>cchemco@yahoo.com</td>
                                                     <td>Paul Fenando Sombilon</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -136,8 +147,9 @@
                                                     <td></td>
                                                     <td>cordova@gmail.com</td>
                                                     <td>Neomelito Nuňez</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -145,8 +157,9 @@
                                                     <td>09175448439</td>
                                                     <td>avelina_lopez06@yahoo.com</td>
                                                     <td>Avelina Lopez</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -154,8 +167,9 @@
                                                     <td>(074) 624-6789</td>
                                                     <td>adtempco1985@yahoo.com</td>
                                                     <td>Irene B. Bringas</td>
+                                                    <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-eye"></i>&nbsp; View</a>
+                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
                                                     </td>
                                                 </tr>
                                     </tbody>

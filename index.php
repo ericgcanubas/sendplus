@@ -152,23 +152,135 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-xl-6">
+                            <div class="col-xl-12">
                                 <div class="card mb-4">
                                     <div class="card-header bg-custom text-white">
-                                        <i class="fa fa-area-chart me-1"></i>
-                                       Daily Chart 
+                                        <i class="fa fa-paper-plane me-1"></i>
+                                      Postpaid & SMS Summary
                                     </div>
-                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                                    <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6 text-first" ><h1 class="text-primary text-shadow"><b>POSTPAID</b></h1></div>
+                                                <div class="col-md-6 text-first" ><h2> TOTAL CHARGE: 4,202.00</h2></div>
+                                            </div>
+
+                                <table id="datatablesSimple" >
+                                    <thead class="bg-custom text-white">
+                                        <tr>
+                                            <th>Branch</th>
+                                            <th>Total SMS</th>
+                                            <th>Charge</th>
+                                    
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Branch</th>
+                                            <th>Total SMS</th>
+                                            <th>Charge</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                    <tr>
+                                        <td>ADTEMPCO BAGUIO BRANCH</td>
+                                        <td>230.00</td>
+                                        <td>115.00</td>
+                                    </tr>
+                                      
+                                    
+                                    <tr>
+                                        <td>ADTEMPCO BANGGUED BRANCH</td>
+                                        <td>6,305.00</td>
+                                        <td>3,689.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO CABANATUAN BRANCH</td>
+                                        <td>18.00</td>
+                                        <td>9.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO LANGANGILANG BRANCH</td>
+                                        <td>2.00</td>
+                                        <td>1.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>ADTEMPCO LATRINIDAD BRANCH</td>
+                                        <td>129.00</td>
+                                        <td>64.50</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>ADTEMPCO MANABO BRANCH</td>
+                                        <td>24.00</td>
+                                        <td>12.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>ADTEMPCO PENARUBIA BRANCH</td>
+                                        <td>78.00</td>
+                                        <td>39.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO SAN CARLOS BRANCH</td>
+                                        <td>154.00</td>
+                                        <td>77.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO SAN FERNANDO BRANCH</td>
+                                        <td>89.00</td>
+                                        <td>44.50</td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
+                         
+
+                            <div class="col-xl-12">
+                            <div class="card mb-4">
                                     <div class="card-header bg-custom text-white">
-                                        <i class="fa  fa-bar-chart  me-1"></i>
-                                      Monthly Chart
+                                        <i class="fa fa-area-chart me-1"></i>
+                                       Status 
                                     </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                                </div>
+                                    <div class="card-body">
+                                    <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab" role="tablist">
+                                        <li class="nav-item " role="presentation" >
+                                            <button class="nav-link active " id="pills-daily-tab" data-bs-toggle="pill" data-bs-target="#pills-daily" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Daily</button>
+                                        </li>
+                                        <li class="nav-item " role="presentation">
+                                            <button class="nav-link " id="pills-weekly-tab" data-bs-toggle="pill" data-bs-target="#pills-weekly" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Weekly</button>
+                                        </li>
+                                        <li class="nav-item " role="presentation">
+                                            <button class="nav-link " id="pills-monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Monthly</button>
+                                        </li>
+                                    </ul>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-daily" role="tabpanel" aria-labelledby="pills-daily-tab">
+                <div class="row text-start">
+                <canvas id="myAreaChart" width="100%" height="40"></canvas>      
+                </div>   
+    </div>
+    <div class="tab-pane fade" id="pills-weekly" role="tabpanel" aria-labelledby="pills-weekly-tab">
+                <div class="row text-start">
+                <canvas id="thsWeekly" width="100%" height="40"></canvas>
+                </div>   
+    </div>
+    <div class="tab-pane fade" id="pills-monthly" role="tabpanel" aria-labelledby="pills-monthly-tab">
+                <div class="row text-start">
+                <canvas id="myBarChart" width="100%" height="40">
+                </div>   
+    </div>   
+</div>     
+
+    
+</div>
+                                </div>   
+
+
+
                             </div>
                         </div>
                        

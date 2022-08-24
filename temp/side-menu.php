@@ -30,7 +30,7 @@
                             </a>
                             <div class="collapse bg-secondary" id="collapseEmail" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link text-white" href="email-panel.php">Send</a>
+                                <!-- <a class="nav-link text-white" href="email-panel.php">Send</a> -->
                                 <a class="nav-link text-white" href="email-inbox.php">Inbox</a>
                                 </nav>
                             </div>
@@ -38,26 +38,27 @@
 
                             <a class="nav-link collapsed text-white" href="#" data-bs-toggle="collapse" data-bs-target="#collapseCredentials" aria-expanded="false" aria-controls="collapsePages">                            
                             <div class="sb-nav-link-icon text-white"><i class="fa fa-book"></i></div>
-                                Credentials
+                                Branch
                                 <div class="sb-sidenav-collapse-arrow text-white"><i class="fa fa-angle-down"></i></div>
                             </a>
 
                             <div class="collapse bg-secondary" id="collapseCredentials" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion " id="sidenavAccordionPages">
-                                <a class="nav-link text-white" href="create_payment.php">Create Payment</a>
-                                <a class="nav-link text-white" href="view_client.php">View Clients  </a>
+                                <!-- <a class="nav-link text-white" href="create_payment.php">Create Payment</a> -->
+                                <a class="nav-link text-white" href="view_client.php">Branch List  </a>
                                 
                                 </nav>
                             </div>
                         
                             <a class="nav-link collapsed text-white" href="#" data-bs-toggle="collapse" data-bs-target="#collapseBills" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon text-white"><i class="fa fa-envelope-open"></i></div>
-                                Bills
+                                Billing
                                 <div class="sb-sidenav-collapse-arrow text-white"><i class="fa fa-angle-down"></i></div>
                             </a>
                             <div class="collapse bg-secondary" id="collapseBills" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                 <a class="nav-link text-white" href="#">View Statements</a>
+                                <a class="nav-link text-white" href="billing-view.php">View</a>
+                                 <a class="nav-link text-white" href="billing-setup.php">Setup</a>
                          
                                 
                                 </nav>
