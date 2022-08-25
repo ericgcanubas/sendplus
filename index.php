@@ -158,8 +158,8 @@
                                     </div>
                                     <div class="card-body">
                                             <div class="row">
-                                                <div class="col-md-6 text-first" ><h1 class="text-primary text-shadow"><b>POSTPAID</b></h1></div>
-                                                <div class="col-md-6 text-first" ><h2 class="text-danger"> TOTAL CHARGE: 4,202.00</h2></div>
+                                                <div class="col-md-6 text-first" ><h5 class="text-primary text-shadow"><b>POSTPAID</b></h5></div>
+                                                <div class="col-md-6 text-end" ><h6 class="text-danger"> TOTAL CHARGE: 4,202.00</h6></div>
                                             </div>
 
                                 <table id="datatablesSimple" >
@@ -245,8 +245,8 @@
                                     </div>
                                     <div class="card-body">
                                             <div class="row">
-                                                <div class="col-md-6 text-first" ><h1 class="text-primary text-shadow"><b></b></h1></div>
-                                                 <div class="col-md-6 text-first" ><h2 class="text-success"> TOTAL SENT: 1,202</h2></div> 
+                                                <div class="col-md-6 text-first" ><h5 class="text-primary text-shadow"><b>EMAIL</b></h5></div>
+                                                 <div class="col-md-6 text-end" ><h6 class="text-success"> TOTAL SENT: 1,202</h6></div> 
                                             </div>
 
                                 <table id="datatablesSimple1" > 

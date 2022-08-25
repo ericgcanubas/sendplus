@@ -116,12 +116,12 @@
                     <div class="col-md-12 form-group mb-3">
                         <div class="form-floating">                     
                             <select class="form-select" aria-label="Default select example">
-                            <option selected></option>
-                            <option value="1">Basic</option>
-                            <option value="2">Professional</option>
-                            <option value="2">Enterprise</option>
+                            <option selected value="0">--type--</option>
+                            <option value="1">Postpaid</option>
+                            <option value="2">Prepaid</option>
+                         
                             </select>
-                            <label for="example-text-input" class="form-control-label ">Package Type</label>  
+                            <label for="example-text-input" class="form-control-label ">Subscription Type</label>  
                         </div>
                     </div>
                     <div class="col-md-12 form-group mb-3">

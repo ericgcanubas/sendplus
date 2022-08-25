@@ -1,4 +1,4 @@
-<?php $title = "Edit Client - SEND iT+";?>
+<?php $title = "Manage   Subscription - SEND iT+";?>
 <!DOCTYPE html>
 <html lang="en">
    <?php include_once("temp/head.php"); ?>
@@ -9,126 +9,217 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4 text-primary">Subscription</h1>
+                        <h1 class="mt-4 text-primary"></h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active text-info h6">Manage Subscription</li>
+                            <li class="breadcrumb-item active text-dark h5">Credentials</li>
                         </ol>
                    
                      
                         <div class="row">
                             <!-- Modify Start -->
-                            <div class="col-md-10 mb-3" >
-                                <div class="card">
-                                        <div class="card-header bg-custom_side text-white">
-                                        <h6 class="text-uppercase text-sm">User Information</h6>
-                                        </div>
-                                        <div class="card-body">
-                            
-                                            <div class="row">
-                                            
-                                            <div class="row text-start">
-                    <div class="col-md-6 form-group mb-3">
-                    <div class="form-floating">
-                
-                        <input readonly class="form-control" type="text" id ="inputFirstname" placeholder="First Name" value="JUAN" >
-                        <label for="inputFirstname">First Name</label>            
-                    </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                    <div class="form-floating">
-                        <input readonly class="form-control" id="inputCompany" type="text" placeholder="Company" value="ABC COMPANY" >
-                        <label for="inputCompany" class="form-control-label">Company</label>
-                    </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                    <div class="form-floating">
-                     
-                        <input readonly class="form-control" type="text" id="inputLastname" placeholder="Last Name" value="DELA CRUZ" >
-                        <label for="inputLastname" class="form-control-label">Last Name</label>
-                    </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">
-                    
-                        <input readonly class="form-control" type="text" id="inputStreetAddress" placeholder="Street Address"  value="TONDO MANILA" >
-                        <label for="inputStreetAddress" class="form-control-label">Street Address</label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">               
-                            <input readonly class="form-control" type="text" id ="inputContactNo" placeholder="Contact No." value="12345678990">
-                            <label for="inputContactNo" class="form-control-label">Contact No.</label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">
-                           
-                            <input readonly class="form-control" type="email" id="inputEmail" placeholder="Email Address" value="XYZ@www.com" >
-                            <label for="inputEmail" class="form-control-label">Email Address</label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">                           
-                            <input readonly class="form-control" type="text" id="inputCity" placeholder="City" value="MANILA" >
-                            <label for="inputCity" class="form-control-label">City</label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">
+                                    
 
-                            <input readonly class="form-control" type="text" id="inputCountry" placeholder="Country" value="Philippines" >
-                            <label for="inputCountry" class="form-control-label">Country</label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                    <div class="form-floating">                       
-                            <input readonly class="form-control" type="text" id="inputUsername" placeholder="Username" value="xyz123"  >
-                            <label for="inputUsername" class="form-control-label">Username</label>
-                        </div>
-                    </div>
-                    <div class="col-md-6 form-group mb-3">
-                        <div class="form-floating">
-          
-                            <input readonly class="form-control" type="text" id="inputZipCode" placeholder="Zip Code" value="143" >
-                            <label for="inputZipCode" class="form-control-label">Zip Code</label>
-                        </div>
-                    </div>
+              
+                <div class="col-md-6 mb-3">
+                  <div class="row border  mb-3"  >
+                <table class="table table-borderless ">
+                                                                 <tr  class="bg-custom_side text-white">
+                                                                    <th style="width:190px;">  Credentials </th>
+                                                                    <th></th>
+                                                                </tr> 
+                                                                <tr>
+                                                                    <td>Network Provider :</td>
+                                                                    <td>
+                                                                        <select class="form-select w-50" aria-label="Default select example">
+                                                                        <option selected value="0">---select provider---</option>
+                                                                            <option  value="1">M360</option>
+                                                                            <option value="2">Smart</option>
+                                                                          
+                                                                        </select>
+                                                                    </td>            
+                                                                </tr>
+                                                                
+                                                                    <tr id ="m360_provider1"  style="display: none;">
+                                                                        <td>Access Token :</td>
+                                                                        <td>  <input class="form-control" id="inputToken" type="text" placeholder="" value="Hyusx099" /> </td>            
+                                                                    </tr>
+                                                                    <tr id ="m360_provider2"  style="display: none;">
+                                                                        <td>Passphrase :</td>
+                                                                        <td>  <input class="form-control" id="inputPassphrase" type="text" placeholder="" value="usjg2t1q3a" /></td>            
+                                                                    </tr>
+                                                                
+                                                        
+                                                                <tr id ="smart_provider1"  style="display: none;">
+                                                                    <td>Smart Username :</td>
+                                                                    <td><input class="form-control" id="inputUsername" type="text" placeholder="" value="" /></td>            
+                                                                </tr>
+                                                                <tr id ="smart_provider2"  style="display: none;">
+                                                                    <td>Smart Password :</td>
+                                                                    <td> <input class="form-control" id="inputPassword" type="text" placeholder="" value="" /></td>            
+                                                                </tr>
 
-                    <div class="col-md-12 form-group mb-3">
-                        <div class="row">
-                            <div class="col-md-6 text-first mb-3">
-                            <label for="example-text-input" class="form-control-label ">Status</label>  
-                            <select class="form-select" aria-label="Default select example">
-                            <option selected value="0">Active</option>
-                            <option value="1">Inactive</option>
-                      
-                      
-                            </select>
-                          
-                            </div>
-                            <div class="col-md-6 text-end mb-3">
-                            <a class="btn btn-lg bg-custom text-white" href="subscription.php">Update </a>
-                            </div>
-                        </div>
-                         
-                    
-                    </div>
-                    
-                </div>  
-                                                
-                                            </div>
+                                                                <tr id ="smart_provider3"  style="display: none;">
+                                                                    <td>Smart Source No. :</td>
+                                                                    <td><input class="form-control " id="inputSourceNo" type="text" placeholder="" value="" /></td>            
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                              
+                                                                <tr>
+                                                                    <td>Subscription Type :</td>
+                                                                    <td>Postpaid</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Local Text Rate :</td>
+                                                                    <td>
+                                                                        <input class="form-control w-50 text-end" id="inputLocalRate" type="number" placeholder=""  min="0" max="10" step="0.25" value="0.00" />
+                                                                    </td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>International Text Rate :</td>
+                                                                    <td>
+                                                                        <input class="form-control w-50 text-end" id="inputInterRate" type="number" placeholder="" value="" />
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                             
+
+                                                                </table>
+                                                                <div class="row mb-3">
+                                                                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-end">
+                                                                    
+                                                                        <a class="btn btn-danger text-white w-50" href="subscription.php">Cancel </a>
+                                                                        </div>
+                                                                        <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-start">
+                                                                        <a class="btn btn-primary text-white w-50" href="subscription.php">Save </a>
+                                                                        </div>
+
+                                                                </div>
+                                                            
                                         </div>
-                                            
-                                </div>
-</div>          
+
+                </div>
+
+                <div class="col-md-6 mb-3" >
+                                                <table class="table table-bordered border-primary">
+                                                                 <tr  class="bg-custom_side text-white">
+                                                                    <th style="width:150px;">Information</th>
+                                                                    <th>Details</th>
+                                                                </tr> 
+                                                           
+                                                                <tr>
+                                                                    <td>Fullname</td>
+                                                                    <td>Juan Dela Cruz</td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Company</td>
+                                                                    <td> coreDev Solution Inc. </td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Country</td>
+                                                                    <td>Philippines</td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Address</td>
+                                                                    <td> xxxx</td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>City</td>
+                                                                    <td>Cebu</td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Zip Code</td>
+                                                                    <td>143</td>            
+                                                                </tr>
+                                                              
+                                                                <tr>
+                                                                    <td>Contact No.</td>
+                                                                    <td>099222112</td>            
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Email</td>
+                                                                    <td>xyz@gmail.com</td>            
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td>Username</td>
+                                                                    <td>admin123</td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Package Type</td>
+                                                                    <td>Basic</td>            
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Status</td>
+                                                                    <td>Active </td>                                                                       
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Created</td>
+                                                                    <td>2022-04-19 15:27:13 </td>                                                                       
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Updated</td>
+                                                                    <td>2022-04-19 15:27:13 </td>                                                                       
+                                                                </tr>
+                                                                </table>
+                                                         
+                              
+                </div> 
                             <!-- Modify End -->
                         </div>
                      
                     </div>
                 </main>
+                <script>
+$('select').on('change', function (e) {
+    var optionSelected = $("option:selected", this);
+    var valueSelected = this.value;
+   
+    switch(valueSelected) {
+  case '1':
+    // code block
+    $( "#m360_provider1" ).css( "display", "" );
+    $( "#m360_provider2" ).css( "display", "" );
+    $( "#smart_provider1" ).css( "display", "none" );
+    $( "#smart_provider2" ).css( "display", "none" );
+    $( "#smart_provider3" ).css( "display", "none" );
+    break;
+  case '2':
+    // code block
+    $( "#m360_provider" ).css( "display", "none" );
+    $( "#smart_provider" ).css( "display", "" );
+
+    $( "#m360_provider1" ).css( "display", "none" );
+    $( "#m360_provider2" ).css( "display", "none" );
+    $( "#smart_provider1" ).css( "display", "" );
+    $( "#smart_provider2" ).css( "display", "" );
+    $( "#smart_provider3" ).css( "display", "" );
+    break;
+  default:
+    // code block
+    $( "#m360_provider1" ).css( "display", "none" );
+    $( "#m360_provider2" ).css( "display", "none" );
+    $( "#smart_provider1" ).css( "display", "none" );
+    $( "#smart_provider2" ).css( "display", "none" );
+    $( "#smart_provider3" ).css( "display", "none" );
+}
+
+});
+
+                </script>
                 <?php include_once("temp/footer.php");?>
             </div>
         </div>
       <?php include_once("temp/script.php");?>
+
+
     </body>
 </html>

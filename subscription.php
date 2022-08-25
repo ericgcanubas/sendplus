@@ -59,7 +59,8 @@
                                                     <td>Nick Tayabas</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                        <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -69,7 +70,8 @@
                                                     <td>Erolea</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -79,7 +81,8 @@
                                                     <td>phcci_taccity@yahoo.com</td>
                                                     <td> <span class="badge badge-sm bg-danger">Inacive</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -89,7 +92,8 @@
                                                     <td>Jayson Lagare</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -99,7 +103,8 @@
                                                     <td>Ebonito Alivio</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                        <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -109,7 +114,8 @@
                                                     <td>Nino Hugo</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -119,7 +125,8 @@
                                                     <td>Alexander Asis</td>
                                                     <td> <span class="badge badge-sm bg-danger">Inactive</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -129,7 +136,8 @@
                                                     <td>Aiken</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                        <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -139,7 +147,8 @@
                                                     <td>Paul Fenando Sombilon</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -149,7 +158,8 @@
                                                     <td>Neomelito Nuňez</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                        <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
@@ -159,17 +169,19 @@
                                                     <td>Avelina Lopez</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                        <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                                                                                 <tr>
                                                     <td>Abra Diocesan Teachers and Employees Multi-purpose Cooperative</td>
                                                     <td>(074) 624-6789</td>
-                                                    <td>adtempco1985@yahoo.com</td>
+                                                    <td>adtempco1985@yahoo.com</td> 
                                                     <td>Irene B. Bringas</td>
                                                     <td> <span class="badge badge-sm bg-success">Active</span></td>
                                                     <td>
-                                                        <a href='manage_subscription.php' class="btn btn-info  text-white  btn-sm m-b-10 m-l-5 " style="color: green;"><i class="fa fa-wrench"></i>&nbsp; Manage</a>
+                                                    <a href='#' class="btn btn-warning  btn-sm m-b-10 m-l-5 " ><i class="fa fa-edit"></i>&nbsp; Status</a>
+                                                        <a href='manage_subscription.php' class="btn btn-primary  btn-sm m-b-10 m-l-5 "><i class="fa fa-wrench"></i>&nbsp; Credentials</a>
                                                     </td>
                                                 </tr>
                                     </tbody>
