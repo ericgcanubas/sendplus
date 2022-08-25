@@ -11,13 +11,13 @@
                     <div class="container-fluid px-4">
                         <h1 class="mt-4 text-primary">Dashboard</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item active h4">Home</li>
                         </ol>
                            <!-- Modify Start -->
                            
                            <div class="row">
                            <div class="col-lg-12">
-                                <div class="card mb-4 bg-custom" style="margin-right:25px;">
+                                <div class="card mb-4 bg-custom">
                                     <div class="card-header ">
                           
                                      <div class="text-end">
@@ -35,8 +35,7 @@
                                 </div>
                             </div>
                            
-                           </row>
-                        <div class="row">
+                     
                 
 
                             <div class="col-xl-3 col-md-6">
@@ -149,10 +148,9 @@
                                 </div>
                             </div>
 
-                        </div>
+                        
 
-                        <div class="row">
-                            <div class="col-xl-12">
+                            <div class="col-xl-6 ">
                                 <div class="card mb-4">
                                     <div class="card-header bg-custom text-white">
                                         <i class="fa fa-paper-plane me-1"></i>
@@ -161,7 +159,7 @@
                                     <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-6 text-first" ><h1 class="text-primary text-shadow"><b>POSTPAID</b></h1></div>
-                                                <div class="col-md-6 text-first" ><h2> TOTAL CHARGE: 4,202.00</h2></div>
+                                                <div class="col-md-6 text-first" ><h2 class="text-danger"> TOTAL CHARGE: 4,202.00</h2></div>
                                             </div>
 
                                 <table id="datatablesSimple" >
@@ -234,11 +232,97 @@
 
                                     </tbody>
                                 </table>
-                            </div>
+                                </div>
+
                                 </div>
                             </div>
                          
+                            <div class="col-xl-6 ">
+                                <div class="card mb-4">
+                                    <div class="card-header bg-custom text-white">
+                                        <i class="fa fa-paper-plane me-1"></i>
+                                     Email Sent Summary
+                                    </div>
+                                    <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6 text-first" ><h1 class="text-primary text-shadow"><b></b></h1></div>
+                                                 <div class="col-md-6 text-first" ><h2 class="text-success"> TOTAL SENT: 1,202</h2></div> 
+                                            </div>
 
+                                <table id="datatablesSimple1" > 
+                                    <thead class="bg-custom text-white">
+                                        <tr>
+                                            <th>Branch</th>
+                                            <th>Total Sent.</th>
+                                            <!-- <th>Charge</th> -->
+                                    
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Branch</th>
+                                            <th>Total Sent.</th>
+                                            <!-- <th>Charge</th> -->
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                    <tr>
+                                        <td>ADTEMPCO BAGUIO BRANCH</td>
+                                        <td>432</td>
+                                       
+                                    </tr>
+                                      
+                                    
+                                    <tr>
+                                        <td>ADTEMPCO BANGGUED BRANCH</td>
+                                        <td>312</td>
+                                    
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO CABANATUAN BRANCH</td>
+                                        <td>232</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO LANGANGILANG BRANCH</td>
+                                        <td>32</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>ADTEMPCO LATRINIDAD BRANCH</td>
+                                        <td>120</td>
+                                     
+                                    </tr>
+
+                                    <tr>
+                                        <td>ADTEMPCO MANABO BRANCH</td>
+                                        <td>24</td>
+                                       
+                                    </tr>
+
+                                    <tr>
+                                        <td>ADTEMPCO PENARUBIA BRANCH</td>
+                                        <td>78</td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO SAN CARLOS BRANCH</td>
+                                        <td>154</td>
+                                
+                                    </tr>
+                                    <tr>
+                                        <td>ADTEMPCO SAN FERNANDO BRANCH</td>
+                                        <td>89</td>
+                                       
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                                </div>
+
+                                </div>
+                            </div>
                             <div class="col-xl-12">
                             <div class="card mb-4">
                                     <div class="card-header bg-custom text-white">
@@ -281,7 +365,7 @@
 
 
 
-                            </div>
+                            
                         </div>
                        
                            <!-- Modify End -->

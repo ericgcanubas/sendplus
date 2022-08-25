@@ -16,7 +16,9 @@
 .txt_shadow{
     text-shadow: 2px 2px #000;
 }
-
+.txt_shadow_w{
+    text-shadow: 1px 1px #fff;
+}
 .bg-custom_side{
     background-color:  rgb(44, 135, 209);
 
