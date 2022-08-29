@@ -89,10 +89,12 @@
                             <label for="inputZipCode" class="form-control-label">Zip Code</label>
                         </div>
                     </div>
-
-                    <div class="col-md-12 form-group mb-3 text-end">
-                        
-                    <a class="btn btn-lg bg-primary text-white" href="user-profile.php">Save Change</a>
+                    <div class="col-6 col-sm-6 col-md-6 form-group mb-3 text-end">
+                   
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 form-group  text-end">
+                    <a class="btn btn-secondary text-white ml-3" href="user-profile.php">Cancel</a>
+                    <a class="btn btn-primary text-white" href="user-profile.php">Update</a>
                     
                     </div>
                     

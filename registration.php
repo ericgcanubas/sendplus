@@ -20,7 +20,7 @@
 
                
                         <div class="row justify-content-center">
-                            <div class="col-lg-6 text-center" style="padding-top:100px;" >
+                            <div class="col-lg-6 text-center"  >
                           
                             <!-- <h1  class="text-white intro-title title_font" ><i class="fa fa-paper-plane" aria-hidden="true"></i> sendiT+</h1>
                             <p class="text-white title_font">Automated Sending Machine.</p> -->
@@ -116,7 +116,7 @@
                     <div class="col-md-12 form-group mb-3">
                         <div class="form-floating">                     
                             <select class="form-select" aria-label="Default select example">
-                            <option selected value="0">--type--</option>
+                            <option selected value="0">--Type--</option>
                             <option value="1">Postpaid</option>
                             <option value="2">Prepaid</option>
                          

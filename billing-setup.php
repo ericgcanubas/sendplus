@@ -30,9 +30,9 @@
                         <div class="form-floating">                     
                             <select class="form-select" aria-label="Default select example">
                             <option selected></option>
-                            <option value="1">Basic</option>
-                            <option value="2">Professional</option>
-                            <option value="2">Enterprise</option>
+                            <option value="1">sadasdasdsada</option>
+                            <option value="2">sadsadasdasda</option>
+                            <option value="3">sadsadasdasdsa</option>
                             </select>
                             <label for="example-text-input" class="form-control-label ">Subscriber fullname</label>  
                         </div>
@@ -51,12 +51,12 @@
                         </div>
                     </div>     
                     <div class="col-md-6 form-group mb-3">
-                                                <div class="form-floating">
-                                             
-                                                    <input class="form-control" type="date" id="inputDateStarted" value="mm/dd/yyyy">
-                                                    <label for="inputDateStarted" class="form-control-label">Date Started</label>
-                                                </div>
-                                            </div>
+                    <div class="form-floating">
+                    
+                        <input class="form-control" type="date" id="inputDateStarted" value="mm/dd/yyyy">
+                        <label for="inputDateStarted" class="form-control-label">Date Started</label>
+                    </div>
+                </div>
                     <!-- <div class="col-md-12 form-group mb-3">
                         <div class="form-floating">
                             <input class="form-control" type="text" id="inputPaymentType" placeholder="Payment Type" >

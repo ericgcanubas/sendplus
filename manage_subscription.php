@@ -89,9 +89,9 @@
                                                                     <td></td>
                                                                     <td></td>
                                                                 </tr>
-                                                             
 
                                                                 </table>
+
                                                                 <div class="row mb-3">
                                                                         <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-end">
                                                                     
@@ -108,7 +108,7 @@
                 </div>
 
                 <div class="col-md-6 mb-3" >
-                                                <table class="table table-bordered border-primary">
+                                                            <table class="table table-bordered border-primary">
                                                                  <tr  class="bg-custom_side text-white">
                                                                     <th style="width:150px;">Information</th>
                                                                     <th>Details</th>
@@ -153,10 +153,7 @@
                                                                     <td>Username</td>
                                                                     <td>admin123</td>            
                                                                 </tr>
-                                                                <tr>
-                                                                    <td>Package Type</td>
-                                                                    <td>Basic</td>            
-                                                                </tr>
+                                                               
                                                                 <tr>
                                                                     <td>Status</td>
                                                                     <td>Active </td>                                                                       
@@ -169,7 +166,7 @@
                                                                     <td>Updated</td>
                                                                     <td>2022-04-19 15:27:13 </td>                                                                       
                                                                 </tr>
-                                                                </table>
+                                                            </table>
                                                          
                               
                 </div> 
